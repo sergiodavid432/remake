@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indicador de Carga</title>
+  <link rel="stylesheet" href="diseño2.css">
+</head>
+<script>
+  
+    
+    window.onload = function() {
+      setTimeout(function() {
+        window.location.href = "http://localhost:3000/pagina/pag.html"; 
+      }, 5000); 
+    };
+  
+  
+</script>
+
+<style> 
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fbd6d6;
+  }
+  
+  
+  .loader {
+    border: 8px solid #f6c0c0;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+  }
+  
+ 
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+
+
+<body>
+
+  <div class="loader-container">
+    <div class="loader"></div>
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,58 @@
+.menu {
+    background-color: #fff3e0;
+    padding: 50px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    font-size: 36px;
+    color: #7d2c2c;
+    margin-bottom: 30px;
+}
+
+.menu-section {
+    margin-bottom: 30px;
+}
+
+.menu-section h3 {
+    font-size: 28px;
+    color: #e0857b;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #7d2c2c;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 22px;
+    color: #571a1a;
+}
+
+.card-text {
+    color: #666;
+}
+
+.price {
+    font-size: 18px;
+    color: #7d2c2c;
+    margin-top: 10px;
+}
+
+.add-to-cart {
+    background-color: #e0857b;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #571a1a;
+}
+
+
+

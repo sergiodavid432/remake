@@ -1,0 +1,52 @@
+.reservas-section {
+    background-color: #fff3e0; /* Mismo fondo que en el menú */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.reservas-section h3 {
+    font-family: 'Georgia', serif;
+    font-size: 36px;
+    color: #7d2c2c;
+    margin-bottom: 30px;
+}
+
+.reservas-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.reservas-form label {
+    color: #7d2c2c;
+    font-weight: bold;
+}
+
+.reservas-form input, .reservas-form textarea {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    background-color: #fff3e0; /* Igual que el fondo del menú */
+    color: #571a1a;
+}
+
+.reservas-form input:focus, .reservas-form textarea:focus {
+    border-color: #e0857b;
+    box-shadow: 0 0 5px rgba(224, 133, 123, 0.5);
+}
+
+.reservas-form button {
+    background-color: #e0857b;
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.reservas-form button:hover {
+    background-color: #571a1a;
+}

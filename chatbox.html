@@ -1,0 +1,22 @@
+<!-- chatbox.html -->
+<div class="chatbox-container" id="chatbox" style="display: none;">
+    <div class="chatbox">
+        <div class="chatbox-header">
+            <img src="img/boca.png" alt="Logo Boca Punto Rápido" class="logo-img">
+            <h4>Asistente de Boca Punto Rápido</h4>
+            <button onclick="toggleChatbox()" class="btn-close" aria-label="Cerrar"></button>
+        </div>
+        <div class="chatbox-body">
+            <div class="chatbox-message" id="chatbox-message">
+                <p>Hola, ¿en qué te puedo ayudar? Selecciona una opción:</p>
+                <button class="btn btn-primary w-100 mb-2" onclick="mostrarRespuesta(1)">1. ¿Cuáles son los horarios de apertura?</button>
+                <button class="btn btn-primary w-100 mb-2" onclick="mostrarRespuesta(2)">2. ¿Cómo puedo hacer una reserva?</button>
+                <button class="btn btn-primary w-100 mb-2" onclick="mostrarRespuesta(3)">3. ¿Dónde están ubicados?</button>
+                <button class="btn btn-primary w-100 mb-2" onclick="mostrarRespuesta(4)">4. ¿Qué tipo de comida ofrecen?</button>
+            </div>
+        </div>
+        <div class="chatbox-footer">
+            <p class="text-muted">Escribe "Salir" para finalizar la conversación.</p>
+        </div>
+    </div>
+</div>

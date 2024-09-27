@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú - Boca Punto Rápido</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/diseño.css">
+    <link rel="stylesheet" href="style/menu.css">
+    <link rel="stylesheet" href="style/chatbox.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="pag.html">
+                    <img src="img/boca.png" alt="Logo de Boca Punto Rápido" class="logo-img">
+                </a>
+            </div>
+            <nav>
+                <a href="menu.html" class="icono"><i class='bx bxs-book'></i> Menú</a>
+                <a href="ubicacion.html" class="icono"><i class='bx bxs-map'></i> Ubicación</a>
+                <a href="reservas.html" class="icono"><i class='bx bx-calendar'></i> Reservas</a>
+                <a href="criticas.html" class="icono"><i class='bx bxs-chat'></i> criticas</a>
+                <a href="contacto.html" class="icono"><i class='bx bx-phone'></i> Contacto</a>
+                <a href="carrito.html" class="icono"><i class='bx bx-cart'></i> Carrito</a>
+                <a href="sesion.html" class="icono"><i class='bx bx-group'></i> Sesión</a>
+                
+
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="menu">
+            <div class="container">
+                <h2 class="section-title">Menú</h2>
+    
+                <!-- Bebidas Calientes -->
+                <div class="menu-section">
+                    <h3>Bebidas Calientes</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/chocolate.jpg" class="card-img-top" alt="Chocolate">
+                                <div class="card-body">
+                                    <h4 class="card-title">Chocolate</h4>
+                                    <p class="card-text">Delicioso chocolate fresco.</p>
+                                    <p class="price">$5.00</p>
+                                    <button class="btn btn-primary add-to-cart" data-id="1" data-name="Chocolate" data-price="5.00">Agregar al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/panela.jpg" class="card-img-top" alt="Aguapanela">
+                                <div class="card-body">
+                                    <h4 class="card-title">Aguapanela</h4>
+                                    <p class="card-text">Deliciosa aguapanela fresca.</p>
+                                    <p class="price">$7.50</p>
+                                    <button class="btn btn-primary add-to-cart" data-id="2" data-name="Aguapanela" data-price="7.50">Agregar al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/cafe2.jpg" class="card-img-top" alt="Café con Leche">
+                                <div class="card-body">
+                                    <h4 class="card-title">Café con Leche</h4>
+                                    <p class="card-text">Un café suave con leche.</p>
+                                    <p class="price">$6.00</p>
+                                    <button class="btn btn-primary add-to-cart" data-id="3" data-name="Café con Leche" data-price="6.00">Agregar al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Bebidas Frías -->
+                <div class="menu-section">
+                    <h3>Bebidas Frías</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/limonada.jpg"card-img-top" alt="Limonada">
+                                <div class="card-body">
+                                    <h4 class="card-title">Limonada</h4>
+                                    <p class="card-text">Refrescante limonada natural.</p>
+                                    <p class="price">$4.50</p>
+                                    <button class="btn btn-primary add-to-cart" data-id="4" data-name="Limonada" data-price="4.50">Agregar al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/mango.jpg" class="card-img-top" alt="Jugo de Mango">
+                                <div class="card-body">
+                                    <h4 class="card-title">Jugo de Mango</h4>
+                                    <p class="card-text">Jugo fresco de mango.</p>
+                                    <p class="price">$5.00</p>
+                                    <button class="btn btn-primary add-to-cart" data-id="5" data-name="Jugo de Mango" data-price="5.00">Agregar al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/te.jpg" class="card-img-top" alt="Té Helado">
+                                <div class="card-body">
+                                    <h4 class="card-title">Té Helado</h4>
+                                    <p class="card-text">Té negro con hielo.</p>
+                                    <p class="price">$3.50</p>
+                                    <button class="btn btn-primary add-to-cart" data-id="6" data-name="Té Helado" data-price="3.50">Agregar al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Entradas -->
+                <div class="menu-section">
+                    <h3>Entradas</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/tostones2.jpg" class="card-img-top" alt="Tostones con Guacamole">
+                                <div class="card-body">
+                                    <h4 class="card-title">Tostones con Guacamole</h4>
+                                    <p class="card-text">Crujientes tostones con guacamole.</p>
+                                    <p class="price">$8.00</p>
+                                    <button class="btn btn-primary add-to-cart" data-id="7" data-name="Tostones con Guacamole" data-price="8.00">Agregar al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/arepas.jpg" class="card-img-top" alt="Arepas con Queso">
+                                <div class="card-body">
+                                    <h4 class="card-title">Arepas con Queso</h4>
+                                    <p class="card-text">Arepas recién hechas con queso fundido.</p>
+                                    <p class="price">$6.50</p>
+                                    <button class="btn btn-primary add-to-cart" data-id="8" data-name="Arepas con Queso" data-price="6.50">Agregar al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/empanadas4.jpg" class="card-img-top" alt="Empanadas">
+                                <div class="card-body">
+                                    <h4 class="card-title">Empanadas</h4>
+                                    <p class="card-text">Empanadas de carne o pollo.</p>
+                                    <p class="price">$5.00</p>
+                                    <button class="btn btn-primary add-to-cart" data-id="9" data-name="Empanadas" data-price="5.00">Agregar al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Platos Fuertes -->
+                <div class="menu-section">
+                    <h3>Platos Fuertes</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/paisa.jpg" class="card-img-top" alt="Bandeja Paisa">
+                                <div class="card-body">
+                                    <h4 class="card-title">Bandeja Paisa</h4>
+                                    <p class="card-text">Tradicional bandeja paisa con frijoles, arroz, huevo.</p>
+                                    <p class="price">$15.00</p>
+                                    <button class="btn btn-primary add-to-cart" data-id="10" data-name="Bandeja Paisa" data-price="15.00">Agregar al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/sopa.jpg" class="card-img-top" alt="Sancocho">
+                                <div class="card-body">
+                                    <h4 class="card-title">Sancocho</h4>
+                                    <p class="card-text">Un sancocho tradicional colombiano.</p>
+                                    <p class="price">$12.00</p>
+                                    <button class="btn btn-primary add-to-cart" data-id="11" data-name="Sancocho" data-price="12.00">Agregar al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/pollo.jpg" class="card-img-top" alt="Arroz con Pollo">
+                                <div class="card-body">
+                                    <h4 class="card-title">Arroz con Pollo</h4>
+                                    <p class="card-text">Un clásico arroz con pollo.</p>
+                                    <p class="price">$10.00</p>
+                                    <button class="btn btn-primary add-to-cart" data-id="12" data-name="Arroz con Pollo" data-price="10.00">Agregar al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Boca Punto Rápido. Todos los derechos reservados.</p>
+    </footer>
+    <div class="chat-icon" onclick="toggleChatbox()"></div>
+        <i class='bx bxs-chat'></i>
+    </div>
+
+    <script>
+        function toggleChatbox() {
+            const chatbox = document.getElementById('chatbox');
+            chatbox.style.display = chatbox.style.display === 'none' || chatbox.style.display === '' ? 'block' : 'none';
+        }
+
+        fetch('chatbox.html')
+            .then(response => response.text())
+            .then(data => {
+                document.body.insertAdjacentHTML('beforeend', data);
+            });
+
+        function mostrarRespuesta(opcion) {
+            const mensaje = document.getElementById('chatbox-message');
+
+            switch(opcion) {
+                case 1:
+                    mensaje.innerHTML += '<p><strong>Respuesta:</strong> Nuestros horarios son de Lunes a Sábado de 10:00 AM a 10:00 PM.</p>';
+                    break;
+                case 2:
+                    mensaje.innerHTML += '<p><strong>Respuesta:</strong> Puedes hacer una reserva directamente en nuestro sitio web en la sección de reservas.</p>';
+                    break;
+                case 3:
+                    mensaje.innerHTML += '<p><strong>Respuesta:</strong> Estamos ubicados en la calle Principal, número 123, Ciudad.</p>';
+                    break;
+                case 4:
+                    mensaje.innerHTML += '<p><strong>Respuesta:</strong> Ofrecemos una variedad de comida latina, incluyendo tacos, arepas, empanadas y más.</p>';
+                    break;
+                default:
+                    mensaje.innerHTML += '<p><strong>Respuesta:</strong> Opción no válida. Por favor, selecciona una opción válida.</p>';
+                    break;
+            }
+        }
+    </script>
+
+    <script>
+        // Simular que el usuario está registrado
+        const user = { correo: 'user@example.com' };
+
+        // Vincular al carrito del usuario
+        const cartKey = `cart_${user.correo}`;
+        const cart = JSON.parse(localStorage.getItem(cartKey)) || [];
+
+        // Agregar producto al carrito
+        document.querySelectorAll('.add-to-cart').forEach(button => {
+            button.addEventListener('click', function() {
+                const id = this.getAttribute('data-id');
+                const name = this.getAttribute('data-name');
+                const price = parseFloat(this.getAttribute('data-price'));
+
+                // Verificar si el producto ya está en el carrito
+                const existingProduct = cart.find(item => item.id == id);
+                if (existingProduct) {
+                    existingProduct.quantity += 1; // Incrementar la cantidad si ya está
+                } else {
+                    cart.push({ id, name, price, quantity: 1 }); // Agregar nuevo producto
+                }
+
+                // Guardar en localStorage
+                localStorage.setItem(cartKey, JSON.stringify(cart));
+
+                alert(`${name} ha sido agregado al carrito.`);
+            });
+        });
+    </script>
+</body>
+<script src="sesion.js"></script>
+
+
+</html>

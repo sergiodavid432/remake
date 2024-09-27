@@ -1,0 +1,50 @@
+.contact-form h3 {
+    color: #7d2c2c; /* Color principal del título, del mismo que el menú */
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center; /* Centrar el título */
+    font-family: 'Georgia', serif;
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff3e0; /* Fondo del formulario del mismo color que el menú */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Añade una sombra suave */
+}
+
+.contact-form .btn-primary {
+    background-color: #e0857b; /* Color del botón que coincide con el menú */
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #571a1a; /* Hover más oscuro del botón */
+}
+
+.contact-form label {
+    color: #7d2c2c; /* Color de las etiquetas */
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    background-color: #fff3e0; /* Fondo de los campos igual al del formulario */
+    color: #571a1a; /* Texto de los campos */
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    border-color: #e0857b; /* Bordes de los campos activos en color del botón */
+    box-shadow: 0 0 5px rgba(224, 133, 123, 0.5); /* Sombras del color del botón */
+}
